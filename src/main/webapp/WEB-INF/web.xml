@@ -13,9 +13,5 @@
         <servlet-name>defaultservlet</servlet-name>
         <servlet-class>group.jbee.framework.DispatcherServlet</servlet-class>
         <load-on-startup>0</load-on-startup>
-        <init-param>
-            <param-name>ocntextConfigLocation</param-name>
-            <param-value>classpath:</param-value>
-        </init-param>
     </servlet>
 </web-app>
